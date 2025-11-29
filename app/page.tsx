@@ -31,7 +31,7 @@ export default function Home() {
     e.preventDefault();
 
     try {
-      const res = await fetch("/consultation", {
+      const res = await fetch("https://api.flow-links.com/consultation", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
