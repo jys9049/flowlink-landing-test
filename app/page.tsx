@@ -25,8 +25,6 @@ export default function Home() {
     content: searchParams.get("utm_content") || "",
   };
 
-  console.log(utm);
-
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
